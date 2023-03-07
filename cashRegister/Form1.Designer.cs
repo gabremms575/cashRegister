@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.gumLabel = new System.Windows.Forms.Label();
             this.chocolateLabel = new System.Windows.Forms.Label();
             this.icecreamLabel = new System.Windows.Forms.Label();
@@ -258,6 +259,7 @@
             this.Controls.Add(this.icecreamLabel);
             this.Controls.Add(this.chocolateLabel);
             this.Controls.Add(this.gumLabel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
