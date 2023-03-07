@@ -109,6 +109,10 @@ namespace cashRegister
             totalOutput.Text = "";
             tenderedInput.Text = "";
             label2.Text = "";
+            gumQuantity = 0;
+            chocolateQuantity = 0;
+            icecreamQuantity= 0;    
+
         }
     }
 }
