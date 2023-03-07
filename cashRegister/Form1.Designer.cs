@@ -203,7 +203,6 @@
             this.receiptOutput.Name = "receiptOutput";
             this.receiptOutput.Size = new System.Drawing.Size(288, 409);
             this.receiptOutput.TabIndex = 17;
-            this.receiptOutput.Text = "label1";
             // 
             // neworderButton
             // 
