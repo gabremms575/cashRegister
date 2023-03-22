@@ -97,6 +97,7 @@ namespace cashRegister
             receiptOutput.Text += $"\n  Ice cream x{icecreamQuantity} ";
             receiptOutput.Text += icecreamTotal.ToString("C");
             receiptOutput.Text += $"\n\n                Have a nice day";
+
         }
 
         private void neworderButton_Click(object sender, EventArgs e)
